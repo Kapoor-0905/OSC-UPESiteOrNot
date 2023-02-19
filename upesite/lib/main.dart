@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:upesite/home.dart';
 import 'splashScreen.dart';
 import 'package:flame_splash_screen/flame_splash_screen.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: SplashScreen(),
+      home: MyLogin(),
     );
   }
 }
